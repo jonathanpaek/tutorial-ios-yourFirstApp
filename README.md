@@ -12,18 +12,17 @@ Consult [Initial setup](https://developer.artik.cloud/documentation/tutorials/yo
 Setup Installation
 ------------------
 
- *. Sign into [My ARTIK Cloud](https://artik.cloud/)
- *. On the device dashboard, click to connect a new device. Select the Demo Fire Sensor (from cloud.artik.sample.demofiresensor) and name your sensor SampleFireSensor (or any name you'd like).
- *. Click the Settings icon on the device you just added. Get the **device ID** and **device token**. If the token does not already exist, click "GENERATE DEVICE TOKEN…" to get one.   We will only use the 'device id' in this app since the the logged in user will have access to the device.
- *. Visit the Introduction selection to create your Application to retrieve your clientId.
- *. Install ARTIK Cloud Swift SDK:
+ 1. Sign into [My ARTIK Cloud](https://artik.cloud/)
+ 2. On the device dashboard, click to connect a new device. Select the Demo Fire Sensor (from cloud.artik.sample.demofiresensor) and name your sensor SampleFireSensor (or any name you'd like).
+ 3. Click the Settings icon on the device you just added. Get the **device ID** and **device token**. If the token does not already exist, click "GENERATE DEVICE TOKEN…" to get one.   We will only use the 'device id' in this app since the the logged in user will have access to the device.
+ 4. Visit the Introduction selection to create your Application to retrieve your clientId.
+ 5. Install ARTIK Cloud Swift SDK (run following command in root project directory)
   ```
-  #in project directory run:
   pod install
   ```
- *. Open project file with Xcode (sample-swift-SDKStarterWithOauth2.xcworkspace)
- *. Enter deviceId and clientId in your Config.swift file.
- *. Run (Command-R) your app in xcode which will open your app in the iOS Simulator.
+ 6. Open project file with Xcode (sample-swift-SDKStarterWithOauth2.xcworkspace)
+ 7. Enter deviceId and clientId in your Config.swift file.
+ 8. Run your app in xcode which will open your app in the iOS Simulator.
 
 
 More about ARTIK Cloud
